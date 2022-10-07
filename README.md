@@ -8,14 +8,12 @@ Ionic liquids (ILs) are salts, composed of asymmetric cations and anions, typica
 
 ## Ionic Liquid Fingerprints
 
-We recommend using Fingerprinting_RdKit_ILs.py for generating ionic liquid fingerprints. The script utilizes the RdKit.Chem python library.  To use the script, SMILES strings must be generated as identification for the ionic liquids, IUPAC names will not work. 
+We recommend using `Fingerprinting_RdKit_ILs.py` for generating ionic liquid fingerprints. The script utilizes the RdKit python library.  To use the script, SMILES strings must be generated as identification for the ionic liquids, IUPAC names will not work. 
 
 ## NIST ILThermo Data Set
 
-The data used to train the neural network is from the NIST ILThermo database. The final data set used (after filtering) is found in the Supplementary_Material_ILThermoDataset_ALL.csv file. This includes the IL fingerprint.
+The data used to train the neural network is from the NIST ILThermo database. The final data set used (after filtering) is found in the `Supplementary_Material_ILThermoDataset_ALL.csv` file. This includes the IL fingerprint.
 
 ## Authors
 
 Rohan Datta and Shruti Venkatram
-
-- Paper: R. Datta, R. Ramprasad, and S. Venkatram, Conductivity prediction model for ionic liquids using machine learning, J. Chem. Phys. 156, 214505.
